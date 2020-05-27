@@ -201,3 +201,5 @@ STEP 9:
 INSERT INTO "Products" ("Price", "Name", "Description", "QuantityInStock") VALUES ('12.45', 'Widget', 'The Original Widget', '100');
 INSERT INTO "Products" ("Price", "Name", "Description", "QuantityInStock") VALUES ('99.99', 'Flowbee', 'Perfect for haircuts', '3');
 
+STEP 10:
+INSERT INTO "Orders" ("OrderNumber", "DatePlaced", "Email") VALUES ('X529','2020-01-01 16:55:00', 'person@example.com');
