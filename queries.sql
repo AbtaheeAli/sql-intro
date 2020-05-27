@@ -202,7 +202,10 @@ INSERT INTO "Products" ("Price", "Name", "Description", "QuantityInStock") VALUE
 INSERT INTO "Products" ("Price", "Name", "Description", "QuantityInStock") VALUES ('99.99', 'Flowbee', 'Perfect for haircuts', '3');
 
 STEP 10:
-INSERT INTO "Orders" ("OrderNumber", "DatePlaced", "Email") VALUES ('X529','2020-01-01 16:55:00', 'person@example.com');
+INSERT INTO "Orders" ("OrderNumber", "DatePlaced", "Email") VALUES ('X529', '2020-01-01 16:55:00', 'person@example.com');
 
 STEP 11:
-INSERT INTO "ProductOrders" ( "ProductId", "OrderId", "OrderQuantity") VALUES ( '1','1', '3');
+INSERT INTO "ProductOrders" ("ProductId", "OrderId", "OrderQuantity") VALUES ('1', '1', '3');
+
+STEP 12:
+INSERT INTO "ProductOrders" ("ProductId", "OrderId", "OrderQuantity") VALUES ('2', '1', '2');
