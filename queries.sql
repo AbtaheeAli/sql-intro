@@ -192,3 +192,9 @@ STEP 7:
 INSERT INTO "Departments" ("DepartmentName", "Building") VALUES ('Development', 'Main');
 
 INSERT INTO "Departments" ("DepartmentName", "Building") VALUES ('Marketing', 'North');
+
+STEP 8:
+INSERT INTO "Employees" ( "FullName", "Salary", "JobPosition", "PhoneExtension", "IsPartTime", "DepartmentId") VALUES ('Tim Smith', '40000', 'Programmer', '123', 'No', '1');
+INSERT INTO "Employees" ( "FullName", "Salary", "JobPosition", "PhoneExtension", "IsPartTime", "DepartmentId") VALUES ('Barbara Ramsey', '80000', 'Manager', '234', 'No', '1');
+INSERT INTO "Employees" ( "FullName", "Salary", "JobPosition", "PhoneExtension", "IsPartTime", "DepartmentId") VALUES ('Tom Jones', '32000', 'Admin', '456', 'Yes', '2');
+
