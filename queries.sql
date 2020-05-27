@@ -215,3 +215,7 @@ SELECT "Employees"."Fullname", "Departments"."Id"
 FROM "Employees" 
 JOIN "Departments" ON "Employees"."DepartmentId" = "Departments"."Id";  
 
+STEP 14:
+SELECT "Employees"."PhoneExtension", "Departments"."DepartmentName"
+FROM "Employees"
+JOIN "Departments" ON "Employees"."DepartmentId" = "Departments"."Id";
