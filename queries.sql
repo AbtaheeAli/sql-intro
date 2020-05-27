@@ -203,3 +203,6 @@ INSERT INTO "Products" ("Price", "Name", "Description", "QuantityInStock") VALUE
 
 STEP 10:
 INSERT INTO "Orders" ("OrderNumber", "DatePlaced", "Email") VALUES ('X529','2020-01-01 16:55:00', 'person@example.com');
+
+STEP 11:
+INSERT INTO "ProductOrders" ( "ProductId", "OrderId", "OrderQuantity") VALUES ( '1','1', '3');
