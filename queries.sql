@@ -170,3 +170,13 @@ CompanyDatabase4> SELECT * FROM "Employees";
 SELECT 10
 Time: 0.016s
 CompanyDatabase4>  
+
+PART 2 OF CompanyDatabase4
+
+Step 1: 
+CREATE TABLE "Departments" ("Id" SERIAL PRIMARY KEY, "DepartmentName" TEXT, "Building" TEXT);
+
+Step 2: 
+ALTER TABLE "Employees" ADD COLUMN "DepartmentId" INTEGER NULL REFERENCES "Departments" ("Id");
+
+Step 3:
