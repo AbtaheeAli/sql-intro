@@ -179,4 +179,8 @@ CREATE TABLE "Departments" ("Id" SERIAL PRIMARY KEY, "DepartmentName" TEXT, "Bui
 Step 2: 
 ALTER TABLE "Employees" ADD COLUMN "DepartmentId" INTEGER NULL REFERENCES "Departments" ("Id");
 
-Step 3:
+Step 3: 
+CREATE TABLE "Orders" ("Id" SERIAL PRIMARY KEY, "OrderNumber" TEXT, "DatePlaced" TIMESTAMP, "Email" TEXT);
+
+STEP 4: 
+CREATE TABLE "Products" ("Id" SERIAL PRIMARY KEY, "Price" DOUBLE PRECISION, "Name" TEXT, "Description" TEXT, "QuantityInStock" INT);
