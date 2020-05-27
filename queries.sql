@@ -184,3 +184,6 @@ CREATE TABLE "Orders" ("Id" SERIAL PRIMARY KEY, "OrderNumber" TEXT, "DatePlaced"
 
 STEP 4: 
 CREATE TABLE "Products" ("Id" SERIAL PRIMARY KEY, "Price" DOUBLE PRECISION, "Name" TEXT, "Description" TEXT, "QuantityInStock" INT);
+
+STEP 5: 
+CREATE TABLE "ProductOrders" ("Id" SERIAL PRIMARY KEY, "OrderId" INTEGER REFERENCES "Orders" ("Id"), "ProductId" INTEGER REFERENCES "Products" ("Id"), "OrderQuantity" INT);
