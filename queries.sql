@@ -209,3 +209,9 @@ INSERT INTO "ProductOrders" ("ProductId", "OrderId", "OrderQuantity") VALUES ('1
 
 STEP 12:
 INSERT INTO "ProductOrders" ("ProductId", "OrderId", "OrderQuantity") VALUES ('2', '1', '2');
+
+STEP 13:
+SELECT "Employees"."Fullname", "Departments"."Id" 
+FROM "Employees" 
+JOIN "Departments" ON "Employees"."DepartmentId" = "Departments"."Id";  
+
