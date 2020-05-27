@@ -219,3 +219,11 @@ STEP 14:
 SELECT "Employees"."PhoneExtension", "Departments"."DepartmentName"
 FROM "Employees"
 JOIN "Departments" ON "Employees"."DepartmentId" = "Departments"."Id";
+
+STEP 15:
+SELECT "ProductOrders"."Id", "Products"."Name" 
+FROM "Orders" 
+JOIN "ProductOrders" ON "ProductOrders"."OrderId" = "Orders"."Id"
+JOIN "Products" ON "Products"."Id" = 2; 
+
+STEP 16:
