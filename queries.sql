@@ -227,3 +227,5 @@ JOIN "ProductOrders" ON "ProductOrders"."OrderId" = "Orders"."Id"
 JOIN "Products" ON "Products"."Id" = 2; 
 
 STEP 16:
+DELETE FROM "ProductOrders" 
+WHERE "ProductId" = 2 AND "OrderId" = 1;
