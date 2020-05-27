@@ -187,3 +187,8 @@ CREATE TABLE "Products" ("Id" SERIAL PRIMARY KEY, "Price" DOUBLE PRECISION, "Nam
 
 STEP 5: 
 CREATE TABLE "ProductOrders" ("Id" SERIAL PRIMARY KEY, "OrderId" INTEGER REFERENCES "Orders" ("Id"), "ProductId" INTEGER REFERENCES "Products" ("Id"), "OrderQuantity" INT);
+
+STEP 7:
+INSERT INTO "Departments" ("DepartmentName", "Building") VALUES ('Development', 'Main');
+
+INSERT INTO "Departments" ("DepartmentName", "Building") VALUES ('Marketing', 'North');
