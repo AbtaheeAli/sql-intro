@@ -57,7 +57,7 @@ CompanyDatabase4> SELECT * FROM "Employees"
 +---------------+----------+-------------------+------------------+-------------
 
 Step 4:
-CompanyDatabase4> SELECT "FullName", "PhoneExtension" FROM "Employees";         
+CompanyDatabase4> SELECT "FullName", "PhoneExtension" FROM "Employees" WHERE "IsPartTime" = 'No';         
 +---------------+------------------+
 | FullName      | PhoneExtension   |
 |---------------+------------------|
